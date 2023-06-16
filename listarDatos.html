@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">          
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
+    <title>Listado Hurtos</title>
+</head>
+<body onload="listarDatos()">
+    <div class="container">
+        <h1>Tabla de Hurtos</h1>
+        <div class="btn-container">
+        <a class="waves-effect waves-light btn" href="registrarHurtos.html"><i class="material-icons left">add_circle</i>Registrar Hurto</a>
+    </div>
+        <table class="striped">
+            <thead>
+                <tr>
+                    <th>
+                        Direccion
+                    </th>
+                    <th>
+                        Latitud
+                    </th>
+                    <th>
+                        Longitud
+                    </th>
+                    <th>
+                        Descripcion
+                    </th>
+                    <th>
+                        Fecha
+                    </th>
+                    <th>
+                        Acciones
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="contenido">
+                
+            </tbody>
+        </table>
+    </div>
+    <script src="js/funciones.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>   
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
